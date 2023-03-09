@@ -26,5 +26,8 @@ pipeline {
                 echo 'Job Complete'
             }
         }
+        stage('2nd commit'){
+            steps {
+                echo '2nd commit complete'
     }
 }
