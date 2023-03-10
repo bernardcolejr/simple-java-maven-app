@@ -31,5 +31,10 @@ pipeline {
                 echo '2nd commit complete'
             }
         }
+        stage('3rd commit'){
+            steps {
+                echo 'create 3rd pipeline complete'
+            }
+        }
     }
-}  
+}
